@@ -126,12 +126,3 @@ class Yt:
         ydl_opts = {"outtmpl": "videos/video.mp4"}
         with YoutubeDL(ydl_opts) as ydl:
             ydl.download(urls)
-
-     
-# api_key = "AIzaSyC3RBNJgDfDVEPgrGtAAg6spDVFPGHvPvU"
-# channel_id = "UC52gcAONHi2DhPT2O1IwufQ"
-
-# yt = youtube(api_key, channel_id)
-# yt.get_last_video()
-
-#https://www.youtube.com/watch?v=fA-2saKknTU
